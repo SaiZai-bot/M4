@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <meta charset="UTF-8">
+    <title>Webpage 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+<body>
+
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
+        <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#" class="w3-bar-item w3-button">About</a>
+        <a href="#" class="w3-bar-item w3-button">Location</a>
+      </div>
+      
+      <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+        <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#" class="w3-bar-item w3-button">About</a>
+        <a href="#" class="w3-bar-item w3-button">Location</a>
+      </div>
+      
+      <div class="w3-teal">
+        <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+        <div class="w3-container">
+          <h1>Our Page</h1>
+        </div>
+      </div>
+           
+      <script>
+      function openLeftMenu() {
+        document.getElementById("leftMenu").style.display = "block";
+      }
+      
+      function closeLeftMenu() {
+        document.getElementById("leftMenu").style.display = "none";
+      }
+      
+      function openRightMenu() {
+        document.getElementById("rightMenu").style.display = "block";
+      }
+      
+      function closeRightMenu() {
+        document.getElementById("rightMenu").style.display = "none";
+      }
+      </script>
+
+<div class="Header">
+    <div class="Logo">
+        <img src="SnakeLg.png">
+    </div>
+
+    <div class="Hyperlinks">
+        <a href="url">Home</a> - <a href="url"></a> <a href="url">About </a> - <a href="url">Location</a> - <a href="url"> Goals </a> - <a href="url"> Login</a>
+    </div>
+
+</div>
+
+
+<div id="Content">
+    <div id="images">
+        <div id="Image1">
+            <img src="bulldozer.jpg" width="150" height="100" title="A Bulldozer">
+        </div>
+        <div id="Image2">
+            <img src="Crane.jpg" width="150" height="100" title="A Crane">
+        </div>
+        <div id="Image3">
+            <img src="excavator.jpg" width="150" height="100" title="A Excavator">
+        </div>
+        <div id="Image4">
+            <img src="roller.jpg" width="150" height="100" title="A Roller">
+        </div>
+        <div id="Image5">
+            <img src="hauls.jpg" width="150" height="100" title="A hauler">
+        </div>
+    </div>
+
+</div>
+
+<div id="Lorem-ipsum">
+
+    <div id="Loren">
+        <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nulla non mi pellentesque maximus. Mauris eu turpis volutpat, pretium mi quis, sodales orci. Nullam ut dolor at metus pulvinar pharetra at vel urna. Nullam dictum semper auctor. Phasellus efficitur est eu posuere interdum. Sed consectetur vulputate lacus nec elementum. In eget ultrices nisl. Duis vestibulum nunc quis risus consectetur, id blandit elit faucibus. Aliquam ornare egestas nulla rutrum faucibus. Praesent tristique libero leo, vitae volutpat leo imperdiet eget. Suspendisse ac luctus elit. Ut sed commodo est.
+
+Donec elementum maximus justo, ut fringilla risus vehicula nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla euismod sapien bibendum aliquam egestas. Nullam blandit a nulla et efficitur. Nulla ornare enim non consectetur sollicitudin. Praesent non tortor eget massa ultricies sollicitudin. Nulla sem odio, egestas vitae scelerisque ut, iaculis in lectus.
+
+Aliquam tortor ex, congue at augue a, volutpat sodales enim. Pellentesque semper lacus eu ligula facilisis, et finibus dolor fringilla. Nam diam mauris, tempus ac auctor a, volutpat a urna. Nam feugiat est et diam venenatis, quis hendrerit tortor tristique. Ut id est sit amet mi porttitor ullamcorper. Mauris dictum cursus leo, ac ullamcorper nunc finibus id. Sed at pharetra sem.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ultrices nisi vitae euismod malesuada. Integer varius ante sed nisl pharetra hendrerit. Nulla mollis ultricies molestie. Curabitur faucibus lectus non velit blandit aliquam. Mauris interdum neque vitae erat tempor, in tempor tellus rutrum. Suspendisse eget leo diam. Quisque placerat tempor sagittis. Pellentesque eleifend, nibh quis mollis finibus, nulla diam bibendum odio, eu ullamcorper neque eros sed nisl. Duis volutpat metus nec tellus sagittis, et efficitur nunc lacinia. Donec in orci gravida, ultricies urna in, ultricies felis. Sed tellus ex, vestibulum in viverra id, dapibus sed ex. Nullam enim nunc, hendrerit sed ante eget, maximus mollis purus. Aliquam pharetra, justo ac condimentum fringilla, lacus lectus iaculis lectus, gravida finibus diam mi eu nulla. Curabitur quis ligula neque.
+
+Suspendisse potenti. Nunc tempus eu ipsum quis pellentesque. Cras ac ultricies dolor, non feugiat turpis. Aliquam eu pellentesque libero, in luctus ante. Nam lobortis augue at mollis posuere. Quisque a enim vel sem elementum scelerisque. Nulla ligula velit, placerat in tellus eu, lacinia dignissim diam. Integer cursus sagittis tortor, ut maximus quam facilisis egestas. Cras fermentum, eros eget varius cursus, orci neque luctus justo, mattis sodales metus neque quis magna. Maecenas eu quam in metus tincidunt euismod.
+</b>    
+</div>
+</div>
+
+
+
+<div class="Footer">
+    <div class="Foot">
+        <img src="SnakeLg.png">
+    </div>
+
+    <div class="Info">
+        Don Zaimone O. Miranda - 202310159@fit.edu.ph
+    </div>
+
+</div>
+
+
+
+</body>
+
+
+</html>

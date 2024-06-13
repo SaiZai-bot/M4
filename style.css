@@ -1,0 +1,101 @@
+body{
+    background-image: url("Construction.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.Header{
+    width: 100%;
+    display: flex;
+
+}
+
+.Logo{
+    width: 50%;
+    min-height: 50px;
+    background-color: lightgreen;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 50px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.Logo img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.Hyperlinks{
+    width: 50%;
+    min-height: 50px;
+    background-color: lightgreen;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 100px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.Content{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Image1, #Image2, #Image3, #Image4, #Image5 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Lorem-ipsum{
+    background-color: lightgreen;
+    display: grid;
+}
+
+
+.Foot{
+    width: 50%;
+    min-height: 50px;
+    background-color: lightgreen;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 50px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.Footer{
+    width: 100%;
+    display: flex;
+
+}
+
+.Foot img{
+        width: 100px;
+        height: 100px;
+        float: left;
+        display: block;
+        margin-bottom: 10px;
+}
+
+.Info{
+    width: 50%;
+    min-height: 50px;
+    background-color: lightgreen;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 50px;
+    margin-bottom: 10px;
+    float: left;
+}
